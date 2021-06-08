@@ -1,3 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: hsl(0, 0%, 100%);
+    background-image: url(img/snake1.jpg);
+    font-family: Arial, Helvetica, sans-serif;
     
 }
+
+
+.titulo-game{
+    padding: 20px;
+}
+
+
+.footer{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.gradient {
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    /* fundo gradiente */
+    background-image: linear-gradient(#000000, #ff0202);
+    /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* a cor do texto deve estar como transparent */
+    color: transparent;
+    padding-top: 50px;
+  }

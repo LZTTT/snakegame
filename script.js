@@ -14,7 +14,7 @@ let food = {
 
 
 function criarBG(){
-    context.fillStyle = "lightgreen"
+    context.fillStyle = "black"
     context.fillRect(0, 0, 16 * box, 16 * box)
 }
 
@@ -53,7 +53,7 @@ function iniciarJogo(){
     for(i = 1; i < snake.length; i++){
         if(snake[0].x == snake[i].x && snake[0].y == snake[i].y){
         clearInterval(jogo);
-       alert("GAME OVER :( ")
+       alert("OPS, FIM DE JOGO! BOA SORTE NA PRÓXIMA VEZ")
         }
     }
 
